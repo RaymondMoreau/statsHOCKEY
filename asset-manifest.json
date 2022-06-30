@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/statsHOCKEY/static/css/main.5f3ef066.css",
+    "main.js": "/statsHOCKEY/static/js/main.3643087a.js",
+    "index.html": "/statsHOCKEY/index.html",
+    "main.5f3ef066.css.map": "/statsHOCKEY/static/css/main.5f3ef066.css.map",
+    "main.3643087a.js.map": "/statsHOCKEY/static/js/main.3643087a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f3ef066.css",
+    "static/js/main.3643087a.js"
+  ]
+}

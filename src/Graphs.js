@@ -53,7 +53,7 @@ function Graphs() {
             <Col xs={9}>
                 
             <Card className="bg-dark text-white">
-                <Card.Img src="/assets/goals.png" alt="image of graph representing players who scored most goals (Will load other images based on button presses)" />
+                <Card.Img src="./statsHOCKEY/assets/goals.png" alt="image of graph representing players who scored most goals (Will load other images based on button presses)" />
                 <Card.ImgOverlay>
                     <Card.Title>Card title</Card.Title>
                     <Card.Text>

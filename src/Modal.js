@@ -13,9 +13,9 @@ const Modal = ({ is_open, setIsOpen }) => {
             <Card.Text>
             We will send you periodic content via e-mail that will support your love of hockey!
             </Card.Text>
-            <Button variant="primary">Take a Mystery Test (to be implemented)</Button>
+            <Button variant="primary" href='https://www.nhl.com/fans/quiz' target="_blank">Take an official NHL quiz!</Button>
         </Card.Body>
-        <Card.Footer className="text-muted">turi ipipip turi ip</Card.Footer>
+        <Card.Footer className="text-muted">This will bring you to the official NHL website.</Card.Footer>
             <Button onClick={() => setIsOpen(false)}>Close</Button>
         </Card>
             </div>

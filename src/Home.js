@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Row, Col, Card, Container, Accordion, ListGroup } from "react-bootstrap";
+import { Row, Col, Card, Container, Accordion, ListGroup, Button } from "react-bootstrap";
 
 function Home() {
     let navigate = useNavigate();
@@ -75,8 +75,8 @@ function Home() {
                     The Calgary Flames filed for club-elected salary arbitration with Matthew Tkachuk on Monday.
                     By doing so, Tkachuk, a restricted free agent, is unable to receive an offer sheet from another team.
                     The 24-year-old forward set NHL career highs in 42 goals, 62 assists and 104 points in 82 games 
-                    last season. He was tied for ninth in the League in goals, tied for 11th in assists, eighth in points, <br></br><br></br>
-                    and fourth in plus/minus ending with plus-57.
+                    last season. He was tied for ninth in the League in goals, tied for 11th in assists, eighth in points,
+                    and fourth in plus/minus ending with plus-57. <br></br><br></br>
                     Tkachuk also had 10 points with four goals and six assists in 12 games in the Stanley Cup Playoffs, when the 
                     Flames were eliminated by the Edmonton Oilers in five games in the Western Conference Second Round.
                     </Accordion.Body>
@@ -105,6 +105,11 @@ function Home() {
             <ListGroup.Item>Bishop [Dallas Stars] to [Buffalo Sabres]</ListGroup.Item>
             <ListGroup.Item>Letunov [Carolina Hurricanes] to [New York Rangers]</ListGroup.Item>
             </ListGroup>
+            <div className='text-center py-5'>
+            <Button variant="dark" size="lg" onClick={() => {navigate("/FrenchHome")}}>
+                Français?
+            </Button>
+            </div>
             </Col>
             </Row>
         </Container>

@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Row, Col, Container, Button, Card } from "react-bootstrap";
 
-function Graphs() {
+function GraphThree() {
     let navigate = useNavigate();
     return (
         <div>
@@ -24,7 +24,7 @@ function Graphs() {
         <Row>
             <Col xs={3}>
                 <div className="py-5 px-2 d-grid gap-2">
-                    <Button variant="secondary" size="lg" onClick={() => {navigate("/Graphs")}}>
+                    <Button variant="dark" size="lg" onClick={() => {navigate("/Graphs")}}>
                         Most Goals/Game
                     </Button>
                 </div>
@@ -34,7 +34,7 @@ function Graphs() {
                     </Button>
                 </div>
                 <div className="py-5 px-2 d-grid gap-2">
-                    <Button variant="dark" size="lg" onClick={() => {navigate("/GraphThree")}}>
+                    <Button variant="secondary" size="lg" onClick={() => {navigate("/GraphThree")}}>
                         Top +/- Ratings
                     </Button>
                 </div>
@@ -53,7 +53,7 @@ function Graphs() {
             <Col xs={9}>
                 
             <Card className="bg-dark text-white">
-                <Card.Img src="./statsHOCKEY/assets/goals.png" alt="image of graph representing players who scored most goals" />
+                <Card.Img src="./statsHOCKEY/assets/ratings.png" alt="image of graph representing players who achieved the highest +/- ratings" />
                 <Card.ImgOverlay>
                     <Card.Title>Card title</Card.Title>
                 </Card.ImgOverlay>
@@ -66,4 +66,4 @@ function Graphs() {
     );
   }
   
-  export default Graphs;
+  export default GraphThree;

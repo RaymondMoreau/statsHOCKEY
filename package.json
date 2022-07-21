@@ -2,7 +2,7 @@
   "name": "statshockey",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://RaymondMoreau.github.io/statsHOCKEY",
+  "homepage": "https://RaymondMoreau.github.io/statsHOCKEY/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
